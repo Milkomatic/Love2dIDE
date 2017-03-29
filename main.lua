@@ -14,7 +14,7 @@ local textValue = "text"
 --
 function love.load(arg)
     love.window.setMode(0,0,{resizable = true ,borderless = false})
-    love.window.setTitle( "NewMoon - a Love2d Editor" )
+    love.window.setTitle( "EkIsse - a Love2d Editor" )
 end
 
 function love.update(dt)

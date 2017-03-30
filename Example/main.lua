@@ -1,6 +1,6 @@
-Gamestate = require "hump.gamestate"
+Gamestate = require "gamestate"
 local game = require "state-game"
-
+tiny = require("tiny")
 
 local menu = {} -- previously: Gamestate.new()
 
@@ -17,4 +17,5 @@ end
 function love.load()
     Gamestate.registerEvents()
     Gamestate.switch(menu)
+
 end

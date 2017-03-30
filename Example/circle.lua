@@ -1,5 +1,5 @@
-local circle = {
-    drawableObject = require("drawableObject")(10,20,"circle"),
-}
 
+local circle = {
+    shape = require("shape").init(100,50,"circle"),
+}
 return circle

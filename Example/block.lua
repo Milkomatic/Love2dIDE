@@ -1,5 +1,6 @@
+
 local block = {
-    drawableObject = require("drawableObject")(40,50,"square"),
+    shape= require("shape").init(150,50,"square"),
 }
 
 return block

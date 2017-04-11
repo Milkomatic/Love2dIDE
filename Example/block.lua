@@ -1,6 +1,8 @@
 
 local block = {
-    shape= require("shape").init(150,50,"square"),
+    x = 150,
+    y = 50,
+    shape = "square",
 }
 
 return block

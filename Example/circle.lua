@@ -1,5 +1,12 @@
+local circle = class("circle",{
+    x = 100,
+    y = 50,
+    shape = "circle",
+})
 
-local circle = {
-    shape = require("shape").init(100,50,"circle"),
-}
+function circle:init(_x, _y)
+    self.x = _x
+    self.y = _y
+end
+
 return circle

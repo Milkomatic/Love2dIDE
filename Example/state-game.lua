@@ -1,7 +1,7 @@
 tiny = require("tiny")
 
 local game = {}
-local drawWorld = tiny.world(require("circle"),require("block"), require("drawSystem"))
+local drawWorld = tiny.world(require("circle"),require("circle")(50,300),require("block"), require("drawSystem"))
 
 function game:enter()
 

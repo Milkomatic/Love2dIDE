@@ -1,3 +1,4 @@
+class = require "30log"
 Gamestate = require "gamestate"
 local game = require "state-game"
 tiny = require("tiny")
